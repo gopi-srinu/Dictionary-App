@@ -1,30 +1,31 @@
-Dictionary App
 
-This is a simple web-based dictionary application that allows users to search for word definitions using the Dictionary API. The app features a clean and responsive design, and it is built using HTML, CSS, and JavaScript.
+# Dictionary App
 
-Features
+The Dictionary App is a user-friendly program that allows users to search for the meaning of a word by typing it and clicking the search button to get the definition directly on the page. This app is designed with HTML, CSS, and JavaScript, and it features a responsive design as well as an easy-to-understand coding structure. Users should expect the word's results to appear on the page as soon as feasible, and the program is designed to be user-friendly.
+
+
+## Features
 
 - Search for word definitions.
 - Displays the definition of the searched word.
 - Responsive design for various screen sizes.
 
-Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- Dictionary API
+## Installation
 
-Code Overview
+Clone the repository
 
-HTML
+```bash
+  git clone https://github.com/gopi-srinu/Dictionary-App.git
+```
+Navigate to the project directory
+```bash
+  cd Dictionary-App
+```
+Run the Application
+```bash
+  Open the index.html with Live server or preferred browser
+```
 
-The index.html file contains the structure of the app, including the input field, search button, and a div for displaying the results.
-
-CSS
-
-The style.css file includes styles for the app layout, making it responsive and visually appealing.
-
-JavaScript
-
-The script.js file contains the main functionality of the app. It handles the search query, fetches the definition from the Dictionary API, and displays the result.
+## Usage
+- Enter a word into the search bar and click the "Search" button to retrieve and display the word's definition via the Dictionary API.
